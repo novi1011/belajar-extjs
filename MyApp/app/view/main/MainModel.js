@@ -14,3 +14,26 @@ Ext.define('MyApp.view.main.MainModel', {
 
     //TODO - add data, formulas and/or methods to support your view
 });
+
+// stores: {
+    //     ListStore: {
+    //         model: 'MyApp.model.Personnel',
+    //         autoLoad: true,
+    //         autoSync: true,
+    //         proxy:
+    //         {
+    //             type: 'rest',
+    //             reader:
+    //             {
+    //                 rootProperty: 'data',
+    //                 type: 'json'
+    //             },
+    //             url: '/api/main',
+    //             writer: {
+    //                 type: 'json',
+    //                 dateFormat: 'd/m/Y',
+    //                 writeAllFields: true
+    //             }
+    //         }
+    //     }
+    // }

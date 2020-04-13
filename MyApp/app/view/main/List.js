@@ -63,7 +63,7 @@ Ext.define('MyApp.view.main.List', {
         }
     },
     columns: [
-        { text: 'Id', dataIndex: 'id', width: 100 },
+        { text: 'Id', dataIndex: 'id', width: 80 },
         { text: 'Name', dataIndex: 'name', width: 200 }, 
         { text: 'Brands', dataIndex: 'brands', width: 150 },
         { text: 'Color', dataIndex: 'color', width: 200},

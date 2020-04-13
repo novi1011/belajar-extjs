@@ -5,12 +5,12 @@ Ext.define('MyApp.store.Personnel', {
     storeId: 'personnel',
     // autoLoad: true,
    fields: [
-       'id','name','brands', 'color','created_at','updetd_at'
+       'id','name','brands', 'color','created_at','updated_at'
    ],
     proxy: {
         type: 'jsonp',
         api: {
-            read: "http://localhost/MyApp_php/readpersonnel.php"
+            read: "http://localhost/belajar-extjs/MyApp_php/readpersonnel.php"
         },  
         reader: {
             type: 'json',
